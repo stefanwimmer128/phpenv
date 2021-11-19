@@ -1,7 +1,0 @@
-#!/bin/sh
-
-cat << EOF
-export PHPENV="${PHPENV:-$(which php)}"
-
-export PATH="$(dirname "$(readlink -f "$0")"):\$PATH"
-EOF
