@@ -25,7 +25,7 @@ git clone https://git.stefanwimmer128.eu/stefanwimmer128/phpenv.git ~/.phpenv
 Source `phpenv.sh`
 
 ```sh
-source ~/.phpenv
+source ~/.phpenv/phpenv.sh
 ```
 
 ## Usage
