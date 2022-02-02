@@ -1,3 +1,3 @@
 export PHPENV="${PHPENV:-$(which php)}"
 
-export PATH="$(dirname "${BASH_SOURCE:-$0}"):$PATH"
+export PATH="$(dirname "$(readlink -f "${0:-$BASH_SOURCE}")"):$PATH"
